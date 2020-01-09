@@ -2,7 +2,7 @@
 def run_guessing_game
   rannum = rand(5)+1
   puts "Choose the number between 1 and 6"
-  input = gets.strip
+  input = gets.chomp
   
   if rannum == input
     puts "You guessed the correct number!"
